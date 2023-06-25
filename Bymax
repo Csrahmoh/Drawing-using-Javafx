@@ -1,0 +1,929 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package baymax;
+
+import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.scene.Group;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.layout.StackPane;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Rectangle;
+import javafx.stage.Stage;
+
+/**
+ *
+ * @author rahaf
+ */
+public class Baymax extends Application {
+    
+    @Override
+    public void start(Stage primaryStage) {
+        Rectangle rectangle1 = new Rectangle();
+                  rectangle1.setX(60.0f);
+                  rectangle1.setY(60.0f);
+                  rectangle1.setWidth(15.0f);
+                  rectangle1.setHeight(15.0f);
+                  rectangle1.setFill(Color.BLACK);
+                  
+        Rectangle rectangle2 = new Rectangle();
+                  rectangle2.setX(75.0f);
+                  rectangle2.setY(45.0f);
+                  rectangle2.setWidth(30.0f);
+                  rectangle2.setHeight(15.0f);
+                  rectangle2.setFill(Color.BLACK);
+                  
+        Rectangle rectangle3 = new Rectangle();
+                  rectangle3.setX(90.0f);
+                  rectangle3.setY(60.0f);
+                  rectangle3.setWidth(15.0f);
+                  rectangle3.setHeight(45.0f);
+                  rectangle3.setFill(Color.BLACK);
+                  
+        Rectangle rectangle4 = new Rectangle();
+                  rectangle4.setX(105.0f);
+                  rectangle4.setY(75.0f);
+                  rectangle4.setWidth(15.0f);
+                  rectangle4.setHeight(15.0f);
+                  rectangle4.setFill(Color.BLACK);
+                  
+        Rectangle rectangle5 = new Rectangle();
+                  rectangle5.setX(120.0f);
+                  rectangle5.setY(60.0f);
+                  rectangle5.setWidth(15.0f);
+                  rectangle5.setHeight(15.0f);
+                  rectangle5.setFill(Color.BLACK);
+        
+        Rectangle rectangle6 = new Rectangle();
+                  rectangle6.setX(150.0f);
+                  rectangle6.setY(75.0f);
+                  rectangle6.setWidth(45.0f);
+                  rectangle6.setHeight(15.0f);
+                  rectangle6.setFill(Color.BLACK);
+                  
+        Rectangle rectangle7 = new Rectangle();
+                  rectangle7.setX(165.0f);
+                  rectangle7.setY(90.0f);
+                  rectangle7.setWidth(15.0f);
+                  rectangle7.setHeight(15.0f);
+                  rectangle7.setFill(Color.BLACK);
+        
+        Rectangle rectangle8 = new Rectangle();
+                  rectangle8.setX(150.0f);
+                  rectangle8.setY(105.0f);
+                  rectangle8.setWidth(15.0f);
+                  rectangle8.setHeight(15.0f);
+                  rectangle8.setFill(Color.BLACK);
+                  
+        Rectangle rectangle9 = new Rectangle();
+                  rectangle9.setX(135.0f);
+                  rectangle9.setY(120.0f);
+                  rectangle9.setWidth(45.0f);
+                  rectangle9.setHeight(15.0f);
+                  rectangle9.setFill(Color.BLACK);
+                  //
+        Rectangle rectangle10 = new Rectangle();
+                  rectangle10.setX(165.0f);
+                  rectangle10.setY(150.0f);
+                  rectangle10.setWidth(60.0f);
+                  rectangle10.setHeight(15.0f);
+                  rectangle10.setFill(Color.BLACK);
+                  
+        Rectangle rectangle11 = new Rectangle();
+                  rectangle11.setX(195.0f);
+                  rectangle11.setY(165.0f);
+                  rectangle11.setWidth(30.0f);
+                  rectangle11.setHeight(15.0f);
+                  rectangle11.setFill(Color.BLACK);
+                  
+        Rectangle rectangle12 = new Rectangle();
+                  rectangle12.setX(180.0f);
+                  rectangle12.setY(180.0f);
+                  rectangle12.setWidth(45.0f);
+                  rectangle12.setHeight(15.0f);
+                  rectangle12.setFill(Color.BLACK);
+                  
+        Rectangle rectangle13 = new Rectangle();
+                  rectangle13.setX(165.0f);
+                  rectangle13.setY(195.0f);
+                  rectangle13.setWidth(45.0f);
+                  rectangle13.setHeight(15.0f);
+                  rectangle13.setFill(Color.BLACK);
+                  
+        Rectangle rectangle14 = new Rectangle();
+                  rectangle14.setX(165.0f);
+                  rectangle14.setY(210.0f);
+                  rectangle14.setWidth(60.0f);
+                  rectangle14.setHeight(15.0f);
+                  rectangle14.setFill(Color.BLACK);
+                  
+        Rectangle rectangle15 = new Rectangle();
+                  rectangle15.setX(15.0f);
+                  rectangle15.setY(330.0f);
+                  rectangle15.setWidth(15.0f);
+                  rectangle15.setHeight(60.0f);
+                  rectangle15.setFill(Color.BLACK);
+                  
+        Rectangle rectangle16 = new Rectangle();
+                  rectangle16.setX(30.0f);
+                  rectangle16.setY(300.0f);
+                  rectangle16.setWidth(15.0f);
+                  rectangle16.setHeight(30.0f);
+                  rectangle16.setFill(Color.BLACK);
+                  
+        Rectangle rectangle17 = new Rectangle();
+                  rectangle17.setX(30.0f);
+                  rectangle17.setY(330.0f);
+                  rectangle17.setWidth(15.0f);
+                  rectangle17.setHeight(60.0f);
+                  rectangle17.setFill(Color.WHITE);
+                  
+                  
+        Rectangle rectangle19 = new Rectangle();
+                  rectangle19.setX(30.0f);
+                  rectangle19.setY(390.0f);
+                  rectangle19.setWidth(15.0f);
+                  rectangle19.setHeight(30.0f);
+                  rectangle19.setFill(Color.BLACK);
+                  
+        Rectangle rectangle20 = new Rectangle();
+                  rectangle20.setX(45.0f);
+                  rectangle20.setY(285.0f);
+                  rectangle20.setWidth(15.0f);
+                  rectangle20.setHeight(15.0f);
+                  rectangle20.setFill(Color.BLACK);
+                  
+        Rectangle rectangle21 = new Rectangle();
+                  rectangle21.setX(45.0f);
+                  rectangle21.setY(300.0f);
+                  rectangle21.setWidth(15.0f);
+                  rectangle21.setHeight(125.0f);
+                  rectangle21.setFill(Color.WHITE);
+                  
+        Rectangle rectangle23 = new Rectangle();
+                  rectangle23.setX(45.0f);
+                  rectangle23.setY(420.0f);
+                  rectangle23.setWidth(15.0f);
+                  rectangle23.setHeight(15.0f);
+                  rectangle23.setFill(Color.BLACK);
+               
+        Rectangle rectangle24 = new Rectangle();
+                  rectangle24.setX(60.0f);
+                  rectangle24.setY(270.0f);
+                  rectangle24.setWidth(15.0f);
+                  rectangle24.setHeight(15.0f);
+                  rectangle24.setFill(Color.BLACK);
+                  
+        Rectangle rectangle25 = new Rectangle();
+                  rectangle25.setX(60.0f);
+                  rectangle25.setY(285.0f);
+                  rectangle25.setWidth(15.0f);
+                  rectangle25.setHeight(135.0f);
+                  rectangle25.setFill(Color.WHITE);
+                  
+                 
+        Rectangle rectangle27 = new Rectangle();
+                  rectangle27.setX(60.0f);
+                  rectangle27.setY(420.0f);
+                  rectangle27.setWidth(15.0f);
+                  rectangle27.setHeight(15.0f);
+                  rectangle27.setFill(Color.BLACK);
+        
+        Rectangle rectangle28 = new Rectangle();
+                  rectangle28.setX(75.0f);
+                  rectangle28.setY(255.0f);
+                  rectangle28.setWidth(75.0f);
+                  rectangle28.setHeight(15.0f);
+                  rectangle28.setFill(Color.BLACK);
+                  
+        Rectangle rectangle29 = new Rectangle();
+                  rectangle29.setX(75.0f);
+                  rectangle29.setY(270.0f);
+                  rectangle29.setWidth(15.0f);
+                  rectangle29.setHeight(150.0f);
+                  rectangle29.setFill(Color.WHITE);
+
+                 
+        Rectangle rectangle31 = new Rectangle();
+                  rectangle31.setX(75.0f);
+                  rectangle31.setY(420.0f);
+                  rectangle31.setWidth(15.0f);
+                  rectangle31.setHeight(15.0f);
+                  rectangle31.setFill(Color.BLACK);
+                  
+        Rectangle rectangle32 = new Rectangle();
+                  rectangle32.setX(90.0f);
+                  rectangle32.setY(255.0f);
+                  rectangle32.setWidth(15.0f);
+                  rectangle32.setHeight(15.0f);
+                  rectangle32.setFill(Color.BLACK);
+                  
+        Rectangle rectangle33 = new Rectangle();
+                  rectangle33.setX(90.0f);
+                  rectangle33.setY(270.0f);
+                  rectangle33.setWidth(15.0f);
+                  rectangle33.setHeight(30.0f);
+                  rectangle33.setFill(Color.WHITE);
+                  
+        Rectangle rectangle34 = new Rectangle();
+                  rectangle34.setX(90.0f);
+                  rectangle34.setY(300.0f);
+                  rectangle34.setWidth(45.0f);
+                  rectangle34.setHeight(45.0f);
+                  rectangle34.setFill(Color.BLACK);  
+                 
+        Rectangle rectangle35 = new Rectangle();
+                  rectangle35.setX(90.0f);
+                  rectangle35.setY(345.0f);
+                  rectangle35.setWidth(75.0f);
+                  rectangle35.setHeight(90.0f);
+                  rectangle35.setFill(Color.WHITE);
+                  
+        Rectangle rectangle37 = new Rectangle();
+                  rectangle37.setX(90.0f);
+                  rectangle37.setY(435.0f);
+                  rectangle37.setWidth(60.0f);
+                  rectangle37.setHeight(15.0f);
+                  rectangle37.setFill(Color.BLACK);  
+                  
+        Rectangle rectangle38 = new Rectangle();
+                  rectangle38.setX(105.0f);
+                  rectangle38.setY(255.0f);
+                  rectangle38.setWidth(15.0f);
+                  rectangle38.setHeight(45.0f);
+                  rectangle38.setFill(Color.BLACK);
+                  
+        Rectangle rectangle39 = new Rectangle();
+                  rectangle39.setX(120.0f);
+                  rectangle39.setY(270.0f);
+                  rectangle39.setWidth(30.0f);
+                  rectangle39.setHeight(30.0f);
+                  rectangle39.setFill(Color.WHITE);
+                  
+        Rectangle rectangle40 = new Rectangle();
+                  rectangle40.setX(135.0f);
+                  rectangle40.setY(300.0f);
+                  rectangle40.setWidth(30.0f);
+                  rectangle40.setHeight(75.0f);
+                  rectangle40.setFill(Color.WHITE);
+        
+        Rectangle rectangle41 = new Rectangle();
+                  rectangle41.setX(150.0f);
+                  rectangle41.setY(285.0f);
+                  rectangle41.setWidth(15.0f);
+                  rectangle41.setHeight(15.0f);
+                  rectangle41.setFill(Color.WHITE);
+        
+        Rectangle rectangle42 = new Rectangle();
+                  rectangle42.setX(150.0f);
+                  rectangle42.setY(270.0f);
+                  rectangle42.setWidth(15.0f);
+                  rectangle42.setHeight(15.0f);
+                  rectangle42.setFill(Color.BLACK);
+        
+        Rectangle rectangle43 = new Rectangle();
+                  rectangle43.setX(165.0f);
+                  rectangle43.setY(285.0f);
+                  rectangle43.setWidth(15.0f);
+                  rectangle43.setHeight(30.0f);
+                  rectangle43.setFill(Color.BLACK);
+
+        Rectangle rectangle45 = new Rectangle();
+                  rectangle45.setX(135.0f);
+                  rectangle45.setY(420.0f);
+                  rectangle45.setWidth(30.0f);
+                  rectangle45.setHeight(15.0f);
+                  rectangle45.setFill(Color.BLACK);  
+                  
+        Rectangle rectangle46 = new Rectangle();
+                  rectangle46.setX(165.0f);
+                  rectangle46.setY(315.0f);
+                  rectangle46.setWidth(15.0f);
+                  rectangle46.setHeight(75.0f);
+                  rectangle46.setFill(Color.WHITE);
+
+                  
+        Rectangle rectangle48 = new Rectangle();
+                  rectangle48.setX(165.0f);
+                  rectangle48.setY(390.0f);
+                  rectangle48.setWidth(15.0f);
+                  rectangle48.setHeight(30.0f);
+                  rectangle48.setFill(Color.BLACK);  
+                  
+        Rectangle rectangle49 = new Rectangle();
+                  rectangle49.setX(180.0f);
+                  rectangle49.setY(315.0f);
+                  rectangle49.setWidth(15.0f);
+                  rectangle49.setHeight(75.0f);
+                  rectangle49.setFill(Color.BLACK);
+                  
+        Rectangle rectangle51 = new Rectangle();
+                  rectangle51.setX(180.0f);
+                  rectangle51.setY(405.0f);
+                  rectangle51.setWidth(15.0f);
+                  rectangle51.setHeight(15.0f);
+                  rectangle51.setFill(Color.BLACK);
+                  
+        Rectangle rectangle52 = new Rectangle();
+                  rectangle52.setX(195.0f);
+                  rectangle52.setY(300.0f);
+                  rectangle52.setWidth(15.0f);
+                  rectangle52.setHeight(15.0f);
+                  rectangle52.setFill(Color.BLACK);
+                  
+        Rectangle rectangle53 = new Rectangle();
+                  rectangle53.setX(195.0f);
+                  rectangle53.setY(420.0f);
+                  rectangle53.setWidth(15.0f);
+                  rectangle53.setHeight(15.0f);
+                  rectangle53.setFill(Color.BLACK);
+                  
+        Rectangle rectangle54 = new Rectangle();
+                  rectangle54.setX(195.0f);
+                  rectangle54.setY(315.0f);
+                  rectangle54.setWidth(15.0f);
+                  rectangle54.setHeight(105.0f);
+                  rectangle54.setFill(Color.WHITE);
+                  
+                  
+        Rectangle rectangle56 = new Rectangle();
+                  rectangle56.setX(195.0f);
+                  rectangle56.setY(420.0f);
+                  rectangle56.setWidth(45.0f);
+                  rectangle56.setHeight(15.0f);
+                  rectangle56.setFill(Color.BLACK);
+                  
+        Rectangle rectangle57 = new Rectangle();
+                  rectangle57.setX(240.0f);
+                  rectangle57.setY(435.0f);
+                  rectangle57.setWidth(315.0f);
+                  rectangle57.setHeight(15.0f);
+                  rectangle57.setFill(Color.BLACK);
+                  
+        Rectangle rectangle58 = new Rectangle();
+                  rectangle58.setX(210.0f);
+                  rectangle58.setY(270.0f);
+                  rectangle58.setWidth(15.0f);
+                  rectangle58.setHeight(30.0f);
+                  rectangle58.setFill(Color.BLACK);
+                  
+        Rectangle rectangle59 = new Rectangle();
+                  rectangle59.setX(225.0f);
+                  rectangle59.setY(255.0f);
+                  rectangle59.setWidth(15.0f);
+                  rectangle59.setHeight(15.0f);
+                  rectangle59.setFill(Color.BLACK);
+                
+        Rectangle rectangle60 = new Rectangle();
+                  rectangle60.setX(240.0f);
+                  rectangle60.setY(240.0f);
+                  rectangle60.setWidth(15.0f);
+                  rectangle60.setHeight(15.0f);
+                  rectangle60.setFill(Color.BLACK);
+                  
+        Rectangle rectangle61 = new Rectangle();
+                  rectangle61.setX(255.0f);
+                  rectangle61.setY(225.0f);
+                  rectangle61.setWidth(15.0f);
+                  rectangle61.setHeight(15.0f);
+                  rectangle61.setFill(Color.BLACK);
+        
+        Rectangle rectangle62 = new Rectangle();
+                  rectangle62.setX(270.0f);
+                  rectangle62.setY(210.0f);
+                  rectangle62.setWidth(30.0f);
+                  rectangle62.setHeight(15.0f);
+                  rectangle62.setFill(Color.BLACK);
+                  
+        Rectangle rectangle63 = new Rectangle();
+                  rectangle63.setX(300.0f);
+                  rectangle63.setY(195.0f);
+                  rectangle63.setWidth(30.0f);
+                  rectangle63.setHeight(15.0f);
+                  rectangle63.setFill(Color.BLACK);
+                  
+        Rectangle rectangle64 = new Rectangle();
+                  rectangle64.setX(330.0f);
+                  rectangle64.setY(315.0f);
+                  rectangle64.setWidth(150.0f);
+                  rectangle64.setHeight(15.0f);
+                  rectangle64.setFill(Color.BLACK);
+                  
+        Rectangle rectangle65 = new Rectangle();
+                  rectangle65.setX(270.0f);
+                  rectangle65.setY(330.0f);
+                  rectangle65.setWidth(60.0f);
+                  rectangle65.setHeight(15.0f);
+                  rectangle65.setFill(Color.BLACK);
+                  
+        Rectangle rectangle66 = new Rectangle();
+                  rectangle66.setX(240.0f);
+                  rectangle66.setY(345.0f);
+                  rectangle66.setWidth(30.0f);
+                  rectangle66.setHeight(15.0f);
+                  rectangle66.setFill(Color.BLACK);
+                  
+        Rectangle rectangle67 = new Rectangle();
+                  rectangle67.setX(225.0f);
+                  rectangle67.setY(360.0f);
+                  rectangle67.setWidth(15.0f);
+                  rectangle67.setHeight(15.0f);
+                  rectangle67.setFill(Color.BLACK);
+                  
+        Rectangle rectangle68 = new Rectangle();
+                  rectangle68.setX(210.0f);
+                  rectangle68.setY(375.0f);
+                  rectangle68.setWidth(15.0f);
+                  rectangle68.setHeight(15.0f);
+                  rectangle68.setFill(Color.BLACK);
+                  
+        Rectangle rectangle69 = new Rectangle();
+                  rectangle69.setX(330.0f);
+                  rectangle69.setY(180.0f);
+                  rectangle69.setWidth(90.0f);
+                  rectangle69.setHeight(15.0f);
+                  rectangle69.setFill(Color.BLACK);
+                  
+        Rectangle rectangle70 = new Rectangle();
+                  rectangle70.setX(420.0f);
+                  rectangle70.setY(195.0f);
+                  rectangle70.setWidth(30.0f);
+                  rectangle70.setHeight(15.0f);
+                  rectangle70.setFill(Color.BLACK);
+                  
+        Rectangle rectangle71 = new Rectangle();
+                  rectangle71.setX(450.0f);
+                  rectangle71.setY(210.0f);
+                  rectangle71.setWidth(30.0f);
+                  rectangle71.setHeight(15.0f);
+                  rectangle71.setFill(Color.BLACK);
+                  
+        Rectangle rectangle72 = new Rectangle();
+                  rectangle72.setX(480.0f);
+                  rectangle72.setY(225.0f);
+                  rectangle72.setWidth(15.0f);
+                  rectangle72.setHeight(15.0f);
+                  rectangle72.setFill(Color.BLACK);
+                  
+        Rectangle rectangle73 = new Rectangle();
+                  rectangle73.setX(495.0f);
+                  rectangle73.setY(240.0f);
+                  rectangle73.setWidth(15.0f);
+                  rectangle73.setHeight(15.0f);
+                  rectangle73.setFill(Color.BLACK);
+                  
+        Rectangle rectangle74 = new Rectangle();
+                  rectangle74.setX(510.0f);
+                  rectangle74.setY(255.0f);
+                  rectangle74.setWidth(15.0f);
+                  rectangle74.setHeight(15.0f);
+                  rectangle74.setFill(Color.BLACK);
+                  
+        Rectangle rectangle75 = new Rectangle();
+                  rectangle75.setX(525.0f);
+                  rectangle75.setY(270.0f);
+                  rectangle75.setWidth(15.0f);
+                  rectangle75.setHeight(30.0f);
+                  rectangle75.setFill(Color.BLACK);
+                  
+        Rectangle rectangle76 = new Rectangle();
+                  rectangle76.setX(450.0f);
+                  rectangle76.setY(330.0f);
+                  rectangle76.setWidth(15.0f);
+                  rectangle76.setHeight(15.0f);
+                  rectangle76.setFill(Color.BLACK);
+                  
+        Rectangle rectangle77 = new Rectangle();
+                  rectangle77.setX(480.0f);
+                  rectangle77.setY(330.0f);
+                  rectangle77.setWidth(15.0f);
+                  rectangle77.setHeight(90.0f);
+                  rectangle77.setFill(Color.BLACK);
+                  
+        Rectangle rectangle78 = new Rectangle();
+                  rectangle78.setX(465.0f);
+                  rectangle78.setY(345.0f);
+                  rectangle78.setWidth(45.0f);
+                  rectangle78.setHeight(15.0f);
+                  rectangle78.setFill(Color.BLACK);
+                  
+        Rectangle rectangle79 = new Rectangle();
+                  rectangle79.setX(510.0f);
+                  rectangle79.setY(360.0f);
+                  rectangle79.setWidth(15.0f);
+                  rectangle79.setHeight(60.0f);
+                  rectangle79.setFill(Color.BLACK);
+                  
+        Rectangle rectangle80 = new Rectangle();
+                  rectangle80.setX(495.0f);
+                  rectangle80.setY(375.0f);
+                  rectangle80.setWidth(15.0f);
+                  rectangle80.setHeight(15.0f);
+                  rectangle80.setFill(Color.BLACK);
+                  
+        Rectangle rectangle81 = new Rectangle();
+                  rectangle81.setX(495.0f);
+                  rectangle81.setY(405.0f);
+                  rectangle81.setWidth(15.0f);
+                  rectangle81.setHeight(30.0f);
+                  rectangle81.setFill(Color.BLACK);
+                  
+        Rectangle rectangle82 = new Rectangle();
+                  rectangle82.setX(465.0f);
+                  rectangle82.setY(420.0f);
+                  rectangle82.setWidth(15.0f);
+                  rectangle82.setHeight(15.0f);
+                  rectangle82.setFill(Color.BLACK);
+        
+        Rectangle rectangle83 = new Rectangle();
+                  rectangle83.setX(555.0f);
+                  rectangle83.setY(420.0f);
+                  rectangle83.setWidth(90.0f);
+                  rectangle83.setHeight(15.0f);
+                  rectangle83.setFill(Color.BLACK);
+                  
+        Rectangle rectangle84 = new Rectangle();
+                  rectangle84.setX(645.0f);
+                  rectangle84.setY(405.0f);
+                  rectangle84.setWidth(15.0f);
+                  rectangle84.setHeight(15.0f);
+                  rectangle84.setFill(Color.BLACK);
+                  
+        Rectangle rectangle85 = new Rectangle();
+                  rectangle85.setX(660.0f);
+                  rectangle85.setY(360.0f);
+                  rectangle85.setWidth(15.0f);
+                  rectangle85.setHeight(45.0f);
+                  rectangle85.setFill(Color.BLACK);
+                  
+        Rectangle rectangle86 = new Rectangle();
+                  rectangle86.setX(645.0f);
+                  rectangle86.setY(345.0f);
+                  rectangle86.setWidth(15.0f);
+                  rectangle86.setHeight(15.0f);
+                  rectangle86.setFill(Color.BLACK);
+                  
+        Rectangle rectangle87 = new Rectangle();
+                  rectangle87.setX(555.0f);
+                  rectangle87.setY(330.0f);
+                  rectangle87.setWidth(15.0f);
+                  rectangle87.setHeight(30.0f);
+                  rectangle87.setFill(Color.BLACK);
+                  
+        Rectangle rectangle88 = new Rectangle();
+                  rectangle88.setX(570.0f);
+                  rectangle88.setY(330.0f);
+                  rectangle88.setWidth(75.0f);
+                  rectangle88.setHeight(15.0f);
+                  rectangle88.setFill(Color.BLACK);
+                  
+        Rectangle rectangle89 = new Rectangle();
+                  rectangle89.setX(630.0f);
+                  rectangle89.setY(315.0f);
+                  rectangle89.setWidth(15.0f);
+                  rectangle89.setHeight(15.0f);
+                  rectangle89.setFill(Color.BLACK);
+                  
+        Rectangle rectangle90 = new Rectangle();
+                  rectangle90.setX(540.0f);
+                  rectangle90.setY(285.0f);
+                  rectangle90.setWidth(15.0f);
+                  rectangle90.setHeight(45.0f);
+                  rectangle90.setFill(Color.BLACK);
+                  
+        Rectangle rectangle91 = new Rectangle();
+                  rectangle91.setX(555.0f);
+                  rectangle91.setY(285.0f);
+                  rectangle91.setWidth(45.0f);
+                  rectangle91.setHeight(15.0f);
+                  rectangle91.setFill(Color.BLACK);
+                  
+        Rectangle rectangle92 = new Rectangle();
+                  rectangle92.setX(600.0f);
+                  rectangle92.setY(300.0f);
+                  rectangle92.setWidth(30.0f);
+                  rectangle92.setHeight(15.0f);
+                  rectangle92.setFill(Color.BLACK);
+                  
+        Rectangle rectangle93 = new Rectangle();
+                  rectangle93.setX(210.0f);
+                  rectangle93.setY(300.0f);
+                  rectangle93.setWidth(15.0f);
+                  rectangle93.setHeight(75.0f);
+                  rectangle93.setFill(Color.WHITE);
+                  
+        Rectangle rectangle94 = new Rectangle();
+                  rectangle94.setX(225.0f);
+                  rectangle94.setY(270.0f);
+                  rectangle94.setWidth(15.0f);
+                  rectangle94.setHeight(90.0f);
+                  rectangle94.setFill(Color.WHITE);
+                  
+        Rectangle rectangle95 = new Rectangle();
+                  rectangle95.setX(240.0f);
+                  rectangle95.setY(255.0f);
+                  rectangle95.setWidth(15.0f);
+                  rectangle95.setHeight(90.0f);
+                  rectangle95.setFill(Color.WHITE);
+                  
+        Rectangle rectangle96 = new Rectangle();
+                  rectangle96.setX(255.0f);
+                  rectangle96.setY(240.0f);
+                  rectangle96.setWidth(15.0f);
+                  rectangle96.setHeight(105.0f);
+                  rectangle96.setFill(Color.WHITE);
+                  
+        Rectangle rectangle97 = new Rectangle();
+                  rectangle97.setX(270.0f);
+                  rectangle97.setY(225.0f);
+                  rectangle97.setWidth(15.0f);
+                  rectangle97.setHeight(105.0f);
+                  rectangle97.setFill(Color.WHITE);
+                  
+        Rectangle rectangle98 = new Rectangle();
+                  rectangle98.setX(285.0f);
+                  rectangle98.setY(225.0f);
+                  rectangle98.setWidth(15.0f);
+                  rectangle98.setHeight(105.0f);
+                  rectangle98.setFill(Color.WHITE);
+                  
+        Rectangle rectangle99 = new Rectangle();
+                  rectangle99.setX(300.0f);
+                  rectangle99.setY(210.0f);
+                  rectangle99.setWidth(15.0f);
+                  rectangle99.setHeight(120.0f);
+                  rectangle99.setFill(Color.WHITE);
+                 
+        Rectangle rectangle100 = new Rectangle();
+                  rectangle100.setX(315.0f);
+                  rectangle100.setY(210.0f);
+                  rectangle100.setWidth(15.0f);
+                  rectangle100.setHeight(120.0f);
+                  rectangle100.setFill(Color.WHITE);
+                  
+        Rectangle rectangle101 = new Rectangle();
+                  rectangle101.setX(330.0f);
+                  rectangle101.setY(195.0f);
+                  rectangle101.setWidth(15.0f);
+                  rectangle101.setHeight(120.0f);
+                  rectangle101.setFill(Color.WHITE);
+              
+        Rectangle rectangle102 = new Rectangle();
+                  rectangle102.setX(345.0f);
+                  rectangle102.setY(195.0f);
+                  rectangle102.setWidth(75.0f);
+                  rectangle102.setHeight(120.0f);
+                  rectangle102.setFill(Color.WHITE);
+     
+                  
+        Rectangle rectangle103 = new Rectangle();
+                  rectangle103.setX(420.0f);
+                  rectangle103.setY(210.0f);
+                  rectangle103.setWidth(15.0f);
+                  rectangle103.setHeight(105.0f);
+                  rectangle103.setFill(Color.WHITE);
+                  
+        Rectangle rectangle104 = new Rectangle();
+                  rectangle104.setX(435.0f);
+                  rectangle104.setY(210.0f);
+                  rectangle104.setWidth(15.0f);
+                  rectangle104.setHeight(105.0f);
+                  rectangle104.setFill(Color.WHITE);
+                  
+        Rectangle rectangle105 = new Rectangle();
+                  rectangle105.setX(450.0f);
+                  rectangle105.setY(225.0f);
+                  rectangle105.setWidth(15.0f);
+                  rectangle105.setHeight(90.0f);
+                  rectangle105.setFill(Color.WHITE);
+                  
+        Rectangle rectangle106 = new Rectangle();
+                  rectangle106.setX(465.0f);
+                  rectangle106.setY(225.0f);
+                  rectangle106.setWidth(15.0f);
+                  rectangle106.setHeight(90.0f);
+                  rectangle106.setFill(Color.WHITE);
+                 
+        Rectangle rectangle107 = new Rectangle();
+                  rectangle107.setX(480.0f);
+                  rectangle107.setY(240.0f);
+                  rectangle107.setWidth(15.0f);
+                  rectangle107.setHeight(90.0f);
+                  rectangle107.setFill(Color.WHITE);
+                  
+        Rectangle rectangle108 = new Rectangle();
+                  rectangle108.setX(495.0f);
+                  rectangle108.setY(255.0f);
+                  rectangle108.setWidth(15.0f);
+                  rectangle108.setHeight(90.0f);
+                  rectangle108.setFill(Color.WHITE);
+                  
+        Rectangle rectangle109 = new Rectangle();
+                  rectangle109.setX(510.0f);
+                  rectangle109.setY(270.0f);
+                  rectangle109.setWidth(15.0f);
+                  rectangle109.setHeight(90.0f);
+                  rectangle109.setFill(Color.WHITE);
+                  
+        Rectangle rectangle110 = new Rectangle();
+                  rectangle110.setX(525.0f);
+                  rectangle110.setY(300.0f);
+                  rectangle110.setWidth(15.0f);
+                  rectangle110.setHeight(135.0f);
+                  rectangle110.setFill(Color.WHITE);
+                  
+        Rectangle rectangle111 = new Rectangle();
+                  rectangle111.setX(540.0f);
+                  rectangle111.setY(330.0f);
+                  rectangle111.setWidth(15.0f);
+                  rectangle111.setHeight(105.0f);
+                  rectangle111.setFill(Color.WHITE);
+                  
+       
+        Rectangle rectangle112 = new Rectangle();
+                  rectangle112.setX(495.0f);
+                  rectangle112.setY(360.0f);
+                  rectangle112.setWidth(15.0f);
+                  rectangle112.setHeight(15.0f);
+                  rectangle112.setFill(Color.WHITE);
+                  
+        Rectangle rectangle113 = new Rectangle();
+                  rectangle113.setX(555.0f);
+                  rectangle113.setY(300.0f);
+                  rectangle113.setWidth(45.0f);
+                  rectangle113.setHeight(15.0f);
+                  rectangle113.setFill(Color.WHITE);
+                  
+        Rectangle rectangle114 = new Rectangle();
+                  rectangle114.setX(555.0f);
+                  rectangle114.setY(315.0f);
+                  rectangle114.setWidth(75.0f);
+                  rectangle114.setHeight(15.0f);
+                  rectangle114.setFill(Color.WHITE);
+                  
+        Rectangle rectangle115 = new Rectangle();
+                  rectangle115.setX(570.0f);
+                  rectangle115.setY(345.0f);
+                  rectangle115.setWidth(75.0f);
+                  rectangle115.setHeight(15.0f);
+                  rectangle115.setFill(Color.WHITE);
+                  
+        Rectangle rectangle116 = new Rectangle();
+                  rectangle116.setX(555.0f);
+                  rectangle116.setY(360.0f);
+                  rectangle116.setWidth(105.0f);
+                  rectangle116.setHeight(15.0f);
+                  rectangle116.setFill(Color.WHITE);
+                  
+        Rectangle rectangle117 = new Rectangle();
+                  rectangle117.setX(540.0f);
+                  rectangle117.setY(375.0f);
+                  rectangle117.setWidth(120.0f);
+                  rectangle117.setHeight(15.0f);
+                  rectangle117.setFill(Color.WHITE);
+                  
+        Rectangle rectangle118 = new Rectangle();
+                  rectangle118.setX(525.0f);
+                  rectangle118.setY(390.0f);
+                  rectangle118.setWidth(135.0f);
+                  rectangle118.setHeight(15.0f);
+                  rectangle118.setFill(Color.WHITE);
+                  
+        Rectangle rectangle119 = new Rectangle();
+                  rectangle119.setX(495.0f);
+                  rectangle119.setY(390.0f);
+                  rectangle119.setWidth(15.0f);
+                  rectangle119.setHeight(15.0f);
+                  rectangle119.setFill(Color.WHITE);
+                  
+        Rectangle rectangle120 = new Rectangle();
+                  rectangle120.setX(480.0f);
+                  rectangle120.setY(420.0f);
+                  rectangle120.setWidth(15.0f);
+                  rectangle120.setHeight(15.0f);
+                  rectangle120.setFill(Color.WHITE);
+                  
+        Rectangle rectangle121 = new Rectangle();
+                  rectangle121.setX(465.0f);
+                  rectangle121.setY(330.0f);
+                  rectangle121.setWidth(15.0f);
+                  rectangle121.setHeight(15.0f);
+                  rectangle121.setFill(Color.WHITE);      
+                  
+        Rectangle rectangle122 = new Rectangle();
+                  rectangle122.setX(330.0f);
+                  rectangle122.setY(330.0f);
+                  rectangle122.setWidth(120.0f);
+                  rectangle122.setHeight(15.0f);
+                  rectangle122.setFill(Color.WHITE);
+                  
+        Rectangle rectangle123 = new Rectangle();
+                  rectangle123.setX(270.0f);
+                  rectangle123.setY(345.0f);
+                  rectangle123.setWidth(195.0f);
+                  rectangle123.setHeight(15.0f);
+                  rectangle123.setFill(Color.WHITE);
+                  
+        Rectangle rectangle124 = new Rectangle();
+                  rectangle124.setX(240.0f);
+                  rectangle124.setY(360.0f);
+                  rectangle124.setWidth(240.0f);
+                  rectangle124.setHeight(15.0f);
+                  rectangle124.setFill(Color.WHITE);
+                  
+        Rectangle rectangle125 = new Rectangle();
+                  rectangle125.setX(225.0f);
+                  rectangle125.setY(375.0f);
+                  rectangle125.setWidth(255.0f);
+                  rectangle125.setHeight(15.0f);
+                  rectangle125.setFill(Color.WHITE);
+           
+        Rectangle rectangle126 = new Rectangle();
+                  rectangle126.setX(480.0f);
+                  rectangle126.setY(225.0f);
+                  rectangle126.setWidth(15.0f);
+                  rectangle126.setHeight(15.0f);
+                  rectangle126.setFill(Color.BLACK);          
+                  
+        Rectangle rectangle127 = new Rectangle();
+                  rectangle127.setX(180.0f);
+                  rectangle127.setY(390.0f);
+                  rectangle127.setWidth(15.0f);
+                  rectangle127.setHeight(15.0f);
+                  rectangle127.setFill(Color.WHITE);
+           
+        Rectangle rectangle128 = new Rectangle();
+                  rectangle128.setX(240.0f);
+                  rectangle128.setY(420.0f);
+                  rectangle128.setWidth(225.0f);
+                  rectangle128.setHeight(15.0f);
+                  rectangle128.setFill(Color.WHITE);
+          
+        Rectangle rectangle129 = new Rectangle();
+                  rectangle129.setX(195.0f);
+                  rectangle129.setY(390.0f);
+                  rectangle129.setWidth(285.0f);
+                  rectangle129.setHeight(30.0f);
+                  rectangle129.setFill(Color.WHITE); 
+                  
+        Rectangle rectangle130 = new Rectangle();
+                  rectangle130.setX(555.0f);
+                  rectangle130.setY(405.0f);
+                  rectangle130.setWidth(90.0f);
+                  rectangle130.setHeight(15.0f);
+                  rectangle130.setFill(Color.WHITE);   
+                  
+        Rectangle rectangle131 = new Rectangle();
+                  rectangle131.setX(510.0f);
+                  rectangle131.setY(420.0f);
+                  rectangle131.setWidth(15.0f);
+                  rectangle131.setHeight(15.0f);
+                  rectangle131.setFill(Color.WHITE);   
+                  
+                  Group root = new Group(rectangle1,rectangle2,rectangle3,rectangle4,rectangle5,
+                                    rectangle6,rectangle7,rectangle8,rectangle9,rectangle10,
+                                    rectangle11,rectangle12,rectangle13,rectangle14,rectangle15,
+                                    rectangle16,rectangle17,rectangle19,rectangle20,rectangle126,
+                                    rectangle21,rectangle23,rectangle24,rectangle25,rectangle127,
+                                    rectangle27,rectangle28,rectangle29,rectangle128,rectangle129,
+                                    rectangle31,rectangle32,rectangle33,rectangle34,rectangle35,
+                                    rectangle37,rectangle38,rectangle39,rectangle40,rectangle130,
+                                    rectangle41,rectangle42,rectangle43,rectangle45,rectangle131,
+                                    rectangle46,rectangle48,rectangle49,
+                                    rectangle51,rectangle52,rectangle53,rectangle54,
+                                    rectangle56,rectangle57,rectangle58,rectangle59,rectangle60,
+                                    rectangle61,rectangle62,rectangle63,rectangle64,rectangle65,
+                                    rectangle66,rectangle67,rectangle68,rectangle69,rectangle70,
+                                    rectangle71,rectangle72,rectangle73,rectangle74,rectangle75,
+                                    rectangle76,rectangle77,rectangle78,rectangle79,rectangle80,
+                                    rectangle81,rectangle82,rectangle83,rectangle84,rectangle85,
+                                    rectangle86,rectangle87,rectangle88,rectangle89,rectangle90,
+                                    rectangle91,rectangle92,rectangle93,rectangle94,rectangle95,
+                                    rectangle96,rectangle97,rectangle98,rectangle99,rectangle100,
+                                    rectangle101,rectangle102,rectangle103,rectangle104,rectangle105,
+                                    rectangle106,rectangle107,rectangle108,rectangle109,rectangle110,
+                                    rectangle111,rectangle112,rectangle113,rectangle114,rectangle115,
+                                    rectangle116,rectangle117,rectangle118,rectangle119,rectangle120,
+                                    rectangle121,rectangle122,rectangle123,rectangle124,rectangle125
+                                    );
+     
+        Scene scene = new Scene(root, 1920, 1080,Color.SILVER);
+        
+        primaryStage.setTitle("Hello World!");
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        launch(args);
+    }
+    
+}
