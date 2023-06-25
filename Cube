@@ -1,0 +1,124 @@
+
+package javafxapplication3;
+
+import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.scene.Group;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.layout.StackPane;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Line;
+import javafx.scene.shape.Rectangle;
+import javafx.stage.Stage;
+
+
+ 
+  @author rahaf
+ 
+public class JavaFXApplication3 extends Application {
+    
+    @Override
+    public void start(Stage primaryStage) {
+        
+        Line border1 = new Line();
+             border1.setStartX(100.0);
+             border1.setStartY(75.0);
+             border1.setEndX(100.0);
+             border1.setEndY(200.0);
+             border1.setStroke(Color.BLACK); 
+              
+        Line border2 = new Line();
+             border2.setStartX(200.0);
+             border2.setStartY(75.0);
+             border2.setEndX(200.0);
+             border2.setEndY(200.0);
+             border2.setStroke(Color.BLACK); 
+        
+        Line border3 = new Line();
+             border3.setStartX(100.0);
+             border3.setStartY(75.0);
+             border3.setEndX(200.0);
+             border3.setEndY(75.0);
+             border3.setStroke(Color.BLACK); 
+             
+        Line border4 = new Line();
+             border4.setStartX(100.0);
+             border4.setStartY(200.0);
+             border4.setEndX(200.0);
+             border4.setEndY(200.0);
+             border4.setStroke(Color.BLACK); 
+             
+        Line border5 = new Line();
+             border5.setStartX(150.0);
+             border5.setStartY(50.0);
+             border5.setEndX(100.0);
+             border5.setEndY(75.0);
+             border5.setStroke(Color.BLACK); 
+             
+        Line border6 = new Line();
+             border6.setStartX(250.0);
+             border6.setStartY(50.0);
+             border6.setEndX(200.0);
+             border6.setEndY(75.0);
+             border6.setStroke(Color.BLACK); 
+        
+        Line border7 = new Line();
+             border7.setStartX(150.0);
+             border7.setStartY(50.0);
+             border7.setEndX(250.0);
+             border7.setEndY(50.0);
+             border7.setStroke(Color.BLACK); 
+              
+        Line border8 = new Line();
+             border8.setStartX(150.0);
+             border8.setStartY(50.0);
+             border8.setEndX(150.0);
+             border8.setEndY(150.0);
+             border8.setStroke(Color.BLACK); 
+        
+        Line border9 = new Line();
+             border9.setStartX(100.0);
+             border9.setStartY(200.0);
+             border9.setEndX(150.0);
+             border9.setEndY(150.0);
+             border9.setStroke(Color.BLACK); 
+            
+        Line border10 = new Line();
+             border10.setStartX(150.0);
+             border10.setStartY(150.0);
+             border10.setEndX(250.0);
+             border10.setEndY(150.0);
+             border10.setStroke(Color.BLACK); 
+             
+        Line border11 = new Line();
+             border11.setStartX(250.0);
+             border11.setStartY(50.0);
+             border11.setEndX(250.0);
+             border11.setEndY(150.0);
+             border11.setStroke(Color.BLACK); 
+             
+        Line border12 = new Line();
+             border12.setStartX(250.0);
+             border12.setStartY(150.0);
+             border12.setEndX(200.0);
+             border12.setEndY(200.0);
+             border12.setStroke(Color.BLACK);
+             
+        Group root = new Group(border1,border2,border3,border4,border5,border6,border7,border8,border9,border10,border11,border12);
+
+        Scene scene = new Scene(root, 300, 250);
+        
+        primaryStage.setTitle(Hello World!);
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
+
+    
+      @param args the command line arguments
+     
+    public static void main(String[] args) {
+        launch(args);
+    }
+    
